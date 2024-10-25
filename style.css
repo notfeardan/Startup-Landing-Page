@@ -22,3 +22,29 @@ hr {
   max-width: 65px;
   opacity: 1;
 }
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 800;
+  border-radius: 400px;
+}
+
+.btn-light {
+  background-color: #f05f44;
+  border-color: #f05f44;
+  --bs-btn-hover-bg: #ee4b08;
+  --bs-btn-hover-border-color: #ee4b08;
+}
+
+.btn-light:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+}
+
+.btn-big {
+  padding: 1rem 2rem;
+}
